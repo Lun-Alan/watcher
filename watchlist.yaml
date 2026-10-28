@@ -1,0 +1,10 @@
+# 監察清單。可以用 `python watch.py add <link>` 加，亦可以直接喺度改（例如用 GitHub 手機 app）。
+# 每個項目：
+#   id / name / url
+#   checks: [stock, price, change]  揀一樣或者幾樣
+#   target_price: 跌到呢個價或者以下先通知（唔填就係一跌價就通知）
+#   selector: 只睇頁面呢部分（CSS selector），change 同 stock 都會用
+#   js: true  頁面要行 JavaScript 先出內容就開呢個
+#   in_stock_text / out_of_stock_text: 自訂「有貨」「冇貨」字眼
+
+items: []
